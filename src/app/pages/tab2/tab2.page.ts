@@ -9,7 +9,7 @@ import { DataLocalService } from '../../services/data-local.service';
 export class Tab2Page {
 
   enviarCorreo() {
-    console.log('Enviando correo...');
+    this.dataLocal.enviarCorreo();
   }
 
   abrirRegistro( registro ) {
